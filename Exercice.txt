@@ -1,0 +1,73 @@
+
+My Courses
+Calendar
+Leaderboard
+Slack
+Blog
+Learn More
+Full Stack Python
+Full Stack JavaScript
+Summer Camp
+About DI
+Home page
+Our Courses
+Dates & Tuition
+Blog
+Terms & Conditions
+Privacy
+ Full Stack Coding Bootcamp - PHP - Angular - Full Time - 2023 Angular Intermediate Spring Boot 2 & Spring WebFlux Exercises XP Gold
+Exercises XP Gold
+Last updated : January 17th 2023
+
+
+What We Will Learn:
+Uses Server-Sent Events (SSE) to receive updates from the server
+
+
+🌟 Exercise 1 : Uses Server-Sent Events (SSE) To Receive Updates From The Server
+Instructions
+Create an Angular application that uses Server-Sent Events (SSE) to receive updates from the server. The application should display the updates as they are received in a list, and should detect when the event stream has ended.
+
+Create a new Angular application using the Angular CLI.
+
+In the app component, import the HttpClient module from the @angular/common/http package.
+
+In the constructor of the app component, inject the HttpClient object and assign it to a class property.
+
+In the ngOnInit lifecycle hook, call the HttpClient’s get method to create an observable stream of SSE events. Use the subscribe method to subscribe to the observable stream and push the event data to an array that will be used to display the events in the template.
+
+In the ngOnDestroy lifecycle hook, call the unsubscribe method of the subscription to end the event stream.
+
+In the template, use an ngFor directive to display the events in a list.
+
+Create a method that detects when the event stream has ended and displays a message “Event Stream Ended” on the screen.
+
+
+
+Submit Your Exercises :
+Don’t forget to push to Github
+
+More Info
+Duration (approx)
+45 min
+
+
+One Last Thing: Good luck!
+
+
+
+
+Feedback
+Tell us what you thought about the chapter: Exercises XP Gold
+
+
+© 2020 Developers Institute. All Rights Reserved.
+
+ 
+ 
+ 
+Spring Boot 2 & Spring WebFlux
+0% Complete
+Course Notes
+Exercises
+Daily Challenge
